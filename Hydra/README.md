@@ -39,9 +39,6 @@
 
     ```
     function osc() {
-      function noise() {
-        return something
-      }
       function modulate() {
         return something
       }
@@ -58,6 +55,7 @@
     - 어떻게 hydra는 자바스크립트를 활용해서 쉽고 간편한 코드 구성을 짜냈을까?
       - 자바스크립트의 Closures 기능/문법 을 통해서 구현했다.
       - 함수안에 또 다른 함수를 저장해 놓음으로서, 함수들이 꼬리에 꼬리를 물 수 있도록 제작되었다.
+      - [_Hydra function api 참고_](https://hydra.ojack.xyz/api/)
 
 #### 코드 운영해보기
 
