@@ -39,13 +39,16 @@
 
     ```
     function osc() {
+      function shape() {
+        return something
+      }
       function modulate() {
         return something
       }
       ...
 
       return {
-        osc,
+        shape,
         modulate,
         ...
       }
